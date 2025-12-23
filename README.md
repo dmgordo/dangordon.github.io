@@ -5,7 +5,7 @@ This site provides a single *permanent* page to reference the
 databases.  It contains a description of each of the database, and
 links to them on zenodo.
 
-This page may be viewed [here](dmgordo.github.io).
+This page may be viewed [here](https://dmgordo.github.io).
 
 I made this by editing [Academic
 Pages](academicpages.github.io), which let me quickly construct a
