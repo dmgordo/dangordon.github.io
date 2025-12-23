@@ -1,0 +1,27 @@
+current directory: /n/U/gordon/combinatorics/datasets/2026/dmgordo.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.18.0/ext/json/ext/parser
+/usr/bin/ruby -I /usr/share/rubygems -r ./siteconf20251223-792306-ch7xar.rb extconf.rb
+checking for rb_enc_interned_str() in ruby/encoding.h... yes
+checking for rb_str_to_interned_str() in ruby.h... yes
+checking for rb_hash_new_capa() in ruby.h... no
+checking for rb_hash_bulk_insert() in ruby.h... yes
+checking for whether -std=c99 is accepted as CFLAGS... yes
+checking for x86intrin.h... yes
+checking for cpuid.h... yes
+creating Makefile
+
+current directory: /n/U/gordon/combinatorics/datasets/2026/dmgordo.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.18.0/ext/json/ext/parser
+make DESTDIR\= clean
+rm -f 
+rm -f parser.so  *.o  *.bak mkmf.log .*.time
+
+current directory: /n/U/gordon/combinatorics/datasets/2026/dmgordo.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.18.0/ext/json/ext/parser
+make DESTDIR\=
+gcc -I. -I/usr/include -I/usr/include/ruby/backward -I/usr/include -I. -DHAVE_RB_ENC_INTERNED_STR -DHAVE_RB_STR_TO_INTERNED_STR -DHAVE_RB_HASH_BULK_INSERT -DHAVE_X86INTRIN_H -DJSON_ENABLE_SIMD -DHAVE_CPUID_H    -fPIC -O2 -flto=auto -ffat-lto-objects -fexceptions -g -grecord-gcc-switches -pipe -Wall -Werror=format-security -Wp,-D_FORTIFY_SOURCE=2 -Wp,-D_GLIBCXX_ASSERTIONS -specs=/usr/lib/rpm/redhat/redhat-hardened-cc1 -fstack-protector-strong -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -march=x86-64-v2 -mtune=generic -fasynchronous-unwind-tables -fstack-clash-protection -fcf-protection -fPIC -std=c99 -m64 -o parser.o -c parser.c
+rm -f parser.so
+gcc -shared -o parser.so parser.o -L. -L/usr/lib64 -L. -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1 -fstack-protector-strong -rdynamic -Wl,-export-dynamic -Wl,--no-as-needed -Wl,-z,relro -Wl,--as-needed  -Wl,-z,now -specs=/usr/lib/rpm/redhat/redhat-hardened-ld -specs=/usr/lib/rpm/redhat/redhat-annobin-cc1   -m64  -lruby  -lm   -lc
+
+current directory: /n/U/gordon/combinatorics/datasets/2026/dmgordo.github.io/vendor/bundle/ruby/3.0.0/gems/json-2.18.0/ext/json/ext/parser
+make DESTDIR\= install
+/usr/bin/mkdir -p . ./.gem.20251223-792306-6ftxbp/json/ext
+exit > .sitearchdir.-.json.-.ext.time
+/usr/bin/install -c -m 0755 parser.so ./.gem.20251223-792306-6ftxbp/json/ext
