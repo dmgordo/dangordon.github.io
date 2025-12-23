@@ -66,7 +66,7 @@ config:
   theme: 'forest'
 ---
 graph TB
-    DS-->RDS((RDS))
+    DS<-->RDS((RDS))
     RDS-->CWM
     subgraph SDS
     DS((DS))
