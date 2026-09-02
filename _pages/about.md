@@ -1,5 +1,5 @@
 ---
-permalink: /
+permalink: /ljcr/
 title: "The La Jolla Combinatorics Repository"
 author_profile: true
 redirect_from: 
@@ -9,18 +9,16 @@ redirect_from:
 
 In 1996 I started an online database of coverings designs.
 Over the years it grew and changed, from static HTML pages for each
-covering, to a MySQL database using PHP, and its current
-incarnation using AWS EC2 and RDS instances.  Hundreds of researchers
+covering, to a MySQL database using PHP, and then
+AWS EC2 and RDS instances.  Hundreds of researchers
 have contributed tens of thousands of improved coverings over the
 years, and I've added databases for circulant weighing matrices and
 several types of difference sets, 
 
-After thirty years my databases are being retired.
-[The website](http://54.185.214.8/) will continue to be available for
-some to-be-determined period, but
-there will be no
-more changes after March 1, 2026.  The data will remain available;  each database
-will be stored on
+After thirty years my databases are being retired.  The covering
+designs database was frozen after March 1, 2026, and in August the AWS
+servers were shut down.  The data will remain available; each database
+is stored on
 [github](https://github.com/dmgordo?tab=repositories), with a mirror
 at
 [zenodo](https://zenodo.org/search?q=metadata.creators.person_or_org.name%3A%22Gordon%2C%20Daniel%20M.%22&l=list&p=1&s=10&sort=bestmatch), as a `json`

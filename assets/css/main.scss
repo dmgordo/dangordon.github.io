@@ -41,3 +41,71 @@
     "vendor/font-awesome/solid",
     "vendor/font-awesome/brands"
 ;
+
+/* Dropdown navigation for the La Jolla Combinatorics Repository pages. */
+.masthead__menu-item--dropdown {
+  position: relative;
+}
+
+.masthead__submenu {
+  display: none;
+  position: absolute;
+  z-index: 30;
+  top: 100%;
+  left: 0;
+  min-width: 17rem;
+  margin: 0;
+  padding: 0.4rem 0;
+  list-style: none;
+  background: var(--global-bg-color);
+  border: 1px solid var(--global-border-color);
+  border-radius: 4px;
+  box-shadow: 0 8px 18px rgba(0, 0, 0, 0.14);
+}
+
+.masthead__submenu li {
+  display: block;
+  white-space: nowrap;
+}
+
+.masthead__submenu a {
+  display: block;
+  padding: 0.55rem 0.9rem;
+  color: var(--global-masthead-link-color);
+  text-decoration: none;
+}
+
+.masthead__submenu a:hover,
+.masthead__submenu a:focus {
+  color: var(--global-masthead-link-color-hover);
+  background: var(--global-code-background-color);
+}
+
+.masthead__menu-item--dropdown:hover > .masthead__submenu,
+.masthead__menu-item--dropdown:focus-within > .masthead__submenu {
+  display: block;
+}
+
+.publication-list p {
+  margin: 0 0 1.15rem;
+}
+
+.ljcr-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem 1rem;
+  margin: 0 0 1.5rem;
+  padding: 0 0 0.75rem;
+  border-bottom: 1px solid var(--global-border-color);
+  font-family: $sans-serif-narrow;
+  font-size: 0.9em;
+}
+
+.ljcr-nav a {
+  text-decoration: none;
+}
+
+.ljcr-nav a[aria-current="page"] {
+  color: var(--global-text-color);
+  font-weight: 700;
+}

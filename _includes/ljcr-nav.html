@@ -1,0 +1,10 @@
+{% include base_path %}
+
+<nav class="ljcr-nav" aria-label="La Jolla Combinatorics Repository">
+  <a href="{{ base_path }}/ljcr/"{% if page.url == '/ljcr/' %} aria-current="page"{% endif %}>LJCR</a>
+  <a href="{{ base_path }}/covering-designs/"{% if page.url == '/covering-designs/' %} aria-current="page"{% endif %}>Coverings</a>
+  <a href="{{ base_path }}/difference-sets/"{% if page.url == '/difference-sets/' %} aria-current="page"{% endif %}>Diff Sets</a>
+  <a href="{{ base_path }}/relative-difference-sets/"{% if page.url == '/relative-difference-sets/' %} aria-current="page"{% endif %}>Relative Diff Sets</a>
+  <a href="{{ base_path }}/signed-difference-sets/"{% if page.url == '/signed-difference-sets/' %} aria-current="page"{% endif %}>Signed Diff Sets</a>
+  <a href="{{ base_path }}/circulant-weighing-matrices/"{% if page.url == '/circulant-weighing-matrices/' %} aria-current="page"{% endif %}>Circulant Weighing Matrices</a>
+</nav>

@@ -8,21 +8,23 @@
 #      Markdown formatted page while the second is generated using JSON.
 
 main:
-  - title: "Coverings"
-    url: /covering-designs/    
+#  - title: "Home"
+#    url: /
 
-  - title: "Diff Sets"
-    url: /difference-sets/    
-    
-  - title: "Relative Diff Sets"
-    url: /relative-difference-sets/    
-    
-  - title: "Signed Diff Sets"
-    url: /signed-difference-sets/    
-    
-  - title: "Circulant Weighing Matrices"
-    url: /circulant-weighing-matrices/
+  - title: "LJCR"
+    url: /ljcr/
+    children:
+      - title: "Coverings"
+        url: /covering-designs/
+      - title: "Difference Sets"
+        url: /difference-sets/
+      - title: "Relative Difference Sets"
+        url: /relative-difference-sets/
+      - title: "Signed Difference Sets"
+        url: /signed-difference-sets/
+      - title: "Circulant Weighing Matrices"
+        url: /circulant-weighing-matrices/
 
-#  - title: "Publications"
-#    url: /publications/
+  - title: "Publications"
+    url: /publications/
 
