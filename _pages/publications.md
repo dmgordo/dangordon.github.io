@@ -31,7 +31,7 @@ Papers are grouped by subject.
 
 [On the existence of cyclic difference sets with small parameters](https://arxiv.org/abs/math/0304502), with Leonard D. Baumert. In *High Primes and Misdemeanours: Lectures in Honour of the 60th Birthday of Hugh Cowie Williams* (2004), 61–68.
 
-[Some restrictions on orders of abelian planar difference sets]({{ site.baseurl }}/papers/multipliers.pdf). *Journal of Combinatorial Mathematics and Combinatorial Computing* 29 (1999), 241–246.
+[Some restrictions on orders of abelian planar difference sets](https://combinatorialpress.com/jcmcc-articles/volume-029/some-restrictions-on-orders-of-abelian-planar-difference-sets/). *Journal of Combinatorial Mathematics and Combinatorial Computing* 29 (1999), 241–246.
 
 [The Prime Power Conjecture is true for n < 2,000,000](https://doi.org/10.37236/1186). *Electronic Journal of Combinatorics* 1 (1994), R6.
 
@@ -43,7 +43,7 @@ Papers are grouped by subject.
 
 [New constructions for covering designs](https://doi.org/10.1002/jcd.3180030404), with Greg Kuperberg and Oren Patashnik. *Journal of Combinatorial Designs* 3 (1995), 269–284.
 
-C(12,6,3)=15, with Oren Patashnik, John Petro, and Herb Taylor. *Ars Combinatoria* 40 (1995), 161–177.
+[C(12,6,3)=15]({{ site.baseurl }}/papers/c-12-6-3.pdf), with Oren Patashnik, John Petro, and Herb Taylor. *Ars Combinatoria* 40 (1995), 161–177.
 
 ## Coding Theory
 
