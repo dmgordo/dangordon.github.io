@@ -49,14 +49,22 @@ errors or omissions, please contact me at dmgordo *at* gmail *dot* com.
 ## Why these combinatorial objects?
 
 The collection of databases may seem random, but aside from covering
-designs, they are connected.  The diagram below illustrates this:
+designs, they are related.  All of these objects are equivalent to elements of a group ring satisfying the equation:
+
+$A A^{-1} = k + \lambda (G-N)$,
+
+where:
+- The coefficients of $A$ are in $\lbrace 0,1 \rbrace$ for difference sets and relative difference sets, and $\lbrace 0,\pm 1 \rbrace$ for signed difference sets and circulant weighing matrices,
+- The normal subgroup $N$ of $G$ is just the identity for everything except relative difference sets,
+- $G$ is cyclic and $\lambda =0$ for circulant weighing matrices.
+
+The diagram below illustrates their connections:
 difference sets and circulant weighing matrices are both special cases of
 signed difference sets.
 Relative difference sets may be
 constructed by lifting difference sets to a larger group, and
-circulant weighing matrices may be constructed from relative
-difference sets.  See the pages for each
-object and the papers referenced there for more details.
+some circulant weighing matrices may be constructed from relative
+difference sets.
 
 ```mermaid
 ---
@@ -71,3 +79,7 @@ graph TB
     CWM((CWM))
     end
 ```
+
+See the pages for each
+object and the papers referenced there for more details.
+

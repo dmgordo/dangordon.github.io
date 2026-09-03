@@ -13,9 +13,9 @@ is a subset
 such that the element $R = \Sigma r_i$ in the group ring
 $Z[G]$ satifies the difference set equation:
 
-$R R^{-1} = n + \lambda (G-N)$,
+$R R^{-1} = k + \lambda (G-N)$,
 
-where $n = k-\lambda$.  In other words, the differences of elements in
+In other words, the differences of elements in
 $R$ hit all elements of $G$ exactly $\lambda$ times, except for the
 "forbidden subgroup" $N$.
 
@@ -31,7 +31,7 @@ $$
 
 those of the complements of Singer difference sets.
 
-[My forthcoming paper](https://arxiv.org/abs/2501.14924) in *Journal of Algebraic Combinatorics* 
+[My paper](https://doi.org/10.1007/s10801-026-01515-w) in *Journal of Algebraic Combinatorics* 
 gives results on a search for lifts of difference sets, showing that
 up to $k=256$ these are the only known cyclic difference sets with
 lifts, with four possible exceptions.

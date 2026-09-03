@@ -5,25 +5,15 @@ permalink: /publications/
 author_profile: true
 ---
 
-Papers are grouped by subject. See also my [Google Scholar profile](https://scholar.google.com/citations?user=A87MIOAAAAAJ) and [arXiv author page](https://arxiv.org/a/gordon_d_1.html).
+Papers are grouped by subject. 
 
-- [Covering Designs](#covering-designs)
 - [Difference Sets](#difference-sets)
+- [Covering Designs](#covering-designs)
 - [Coding Theory](#coding-theory)
 - [Computational Number Theory](#computational-number-theory)
 - [Miscellaneous](#miscellaneous)
 
 <div class="publication-list" markdown="1">
-
-## Covering Designs
-
-[Coverings]({{ site.baseurl }}/papers/hcd.pdf), with Douglas Stinson. In *Handbook of Combinatorial Designs*, second edition (2007), pp. 365–372.
-
-[Asymptotically optimal covering designs](https://doi.org/10.1006/jcta.1996.0070), with Greg Kuperberg, Oren Patashnik, and Joel Spencer. *Journal of Combinatorial Theory, Series A* 75 (1996), 270–280.
-
-[New constructions for covering designs](https://doi.org/10.1002/jcd.3180030404), with Greg Kuperberg and Oren Patashnik. *Journal of Combinatorial Designs* 3 (1995), 269–284.
-
-C(12,6,3)=15, with Oren Patashnik, John Petro, and Herb Taylor. *Ars Combinatoria* 40 (1995), 161–177.
 
 ## Difference Sets and related objects
 
@@ -44,6 +34,16 @@ C(12,6,3)=15, with Oren Patashnik, John Petro, and Herb Taylor. *Ars Combinatori
 [Some restrictions on orders of abelian planar difference sets]({{ site.baseurl }}/papers/multipliers.pdf). *Journal of Combinatorial Mathematics and Combinatorial Computing* 29 (1999), 241–246.
 
 [The Prime Power Conjecture is true for n < 2,000,000](https://doi.org/10.37236/1186). *Electronic Journal of Combinatorics* 1 (1994), R6.
+
+## Covering Designs
+
+[Coverings]({{ site.baseurl }}/papers/hcd.pdf), with Douglas Stinson. In *Handbook of Combinatorial Designs*, second edition (2007), pp. 365–372.
+
+[Asymptotically optimal covering designs](https://doi.org/10.1006/jcta.1996.0070), with Greg Kuperberg, Oren Patashnik, and Joel Spencer. *Journal of Combinatorial Theory, Series A* 75 (1996), 270–280.
+
+[New constructions for covering designs](https://doi.org/10.1002/jcd.3180030404), with Greg Kuperberg and Oren Patashnik. *Journal of Combinatorial Designs* 3 (1995), 269–284.
+
+C(12,6,3)=15, with Oren Patashnik, John Petro, and Herb Taylor. *Ars Combinatoria* 40 (1995), 161–177.
 
 ## Coding Theory
 

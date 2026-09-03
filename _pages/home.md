@@ -1,13 +1,13 @@
 ---
 layout: single
 permalink: /
-title: "Daniel M. Gordon"
+title: "Dan Gordon"
 author_profile: true
 ---
 
-I am a mathematician at the [Center for Communications Research--La
-Jolla](https://www.ccr-lajolla.org). My research interests include
-combinatorial design theory and computational number theory.  
+I am a mathematician at the Center for Communications Research--La
+Jolla. My research interests include combinatorial design theory and
+computational number theory.
 
 Over the past 30 years I have maintained the [La Jolla Combinatorics
 Repository](/ljcr/), a collection of combinatorial databases that started with
